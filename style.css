@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    padding-top:5px ;
+    padding-bottom: 30px;
+}
+.container-box1{
+    max-width: 500px;
+    margin:  auto;
+    padding: 10px 0px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(100, 2, 100);
+}
+.container-box1-para{
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    text-shadow: 2px 2px #240274;
+    font-weight: 800;
+    color: rgb(182, 0, 0);
+}
+hr{
+    border: 1px solid rgb(202, 202, 202);
+    margin-top: 5px;
+}
+.container-box2{
+    height: 640px;
+    margin: 10px;
+    border: 8px solid rgb(30, 104, 3);
+    position: relative;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(100, 2, 100);
+}
+.box1{
+    float: left;
+    clear: right;
+    padding-top: 10px;
+}
+.box2{
+    float: right;
+    margin-right: 80px;
+}
+img{
+    width: 220px;
+    height: 150px;
+    margin: 40px 8px;
+}
+.box3{
+    clear: both;
+    background-color: rgb(116, 233, 38);
+    border: 8px solid red;
+    width: 500px;
+    top: 75%;
+    left:23%;
+    position: fixed;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    z-index: 3;
+    box-shadow: 8px 8px rgb(100, 2, 100);
+}
+.box-para{
+    color: rgb(16, 3, 133);
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 2px 2px #ce040e;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+.box3-para{
+    color: rgb(202, 13, 13);
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+.para1{
+    margin-left: 20px;
+    font-size: 22px;
+    width: 250px;
+}
+.para2{
+    width: 150px;
+    font-size: 18px;
+    margin-left: 30px; 
+}
+.box4{
+    clear: both;
+    float: left;
+    margin-top: 80px;
+}
+.box5{
+    float: right;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.box4-para{
+    line-height: 1.2;
+    margin: 13px 15px 13px 0px;
+    font-size: 26px;
+    text-align: left;
+}
+.form{
+    margin: 20px;
+    text-align: center;
+}
+label{
+    color: rgb(16, 3, 133);
+    text-align: center;
+    text-shadow: 2px 2px #ce040e;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+input[type=text]{
+    width: 100px;
+    text-align: center;
+}
+input[type=submit]{
+    background-color: red;
+    border-radius: 20px;
+    padding: 2px;
+}
+.container-box3{
+    max-width: 900px;
+    background-color: green;
+    margin: 30px auto;
+    border: 8px solid rgb(117, 43, 124);
+    position: relative;
+}
+.container-box3-head{
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+}
+.container-box3-body1{
+    display: flex;
+}
+.box3-hr{
+    margin-bottom: 20px;
+}
+.fruits{
+    background-color: rgb(252, 244, 137);
+    margin-right: 8px;
+    width: 440px ;
+    padding-bottom: 20px;
+}
+.vegetables{
+    background-color: rgb(252, 244, 137);
+ 
+    width: 440px ;
+    padding-bottom: 20px;
+}
+.box3-head{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Crete Round', serif;
+}
+.para{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    line-height: 2;
+}
+.container-box3-body2{
+    background-color: rgb(252, 244, 137);
+    margin-top: 13px;
+    width: 892px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.box3-header{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Crete Round', serif;
+}
